@@ -143,9 +143,13 @@
                                         <p style="font-size: 18px; font-weight: 700; line-height: 24px; color: #000000;">
                                             Appeal details that you have submitted</p>
                                         <p style="font-size: 16px; font-weight: 400; line-height: 24px; color: #000000;">
-                                            Pupil's name: <span style="font-weight:700">{firstName} {lastName}</span>
-                                            <br> Date of birth: <span style="font-weight:700">{dateOfBirth}</span>
-                                            <br> School appealed for: <span style="font-weight:700">{school}</span>
+Name: <span style="font-weight:700">{firstName} {lastName}</span>
+    <br>Date of Birth: <span style="font-weight:700">{dateOfBirth}</span>
+    <br>Child address: <span style="font-weight:700">{liveswithparent} {PUA/housename} {PUA/flat} {PUA/house} {PUA/street} {PUA/town} {PUA/county} {PUA/postcode}</span>
+    <br>Parent name: <span style="font-weight:700">{firstNameParent} {lastNameParent}</span>
+    <br>Parent address: <span style="font-weight:700">{PAA/housename} {PAA/flat} {PAA/house} {PAA/street} {PAA/town} {PAA/county} {PAA/postcode}</span>
+    <br>School appealing for: <span style="font-weight:700">{school}</span>
+    <br>Appeal type: <span style="font-weight:700">{appealType}</span>
                                         </p>
                                         <p style="font-size: 14px; font-weight: 400; font-style:italic; line-height: 24px; color: #696969;">
                                             Your full appeal submission can be found in the document attached to this email.
